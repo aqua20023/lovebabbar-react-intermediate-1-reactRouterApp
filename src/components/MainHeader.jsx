@@ -1,12 +1,12 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 
-const Home = () => {
-  return (
+const MainHeader = () => {
+ return (
     <div>
-      This is the Home component.
+      <Outlet />
     </div>
   )
 }
 
-export default Home
+export default MainHeader
